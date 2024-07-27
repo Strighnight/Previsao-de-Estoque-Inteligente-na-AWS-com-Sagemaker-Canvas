@@ -18,14 +18,14 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 ### 1. Selecionar Dataset
 
 -   Utilizando a versão mais recente do Chat GPT(GPT-4o), solicitei que fosse feito um DataSet em CSV com os dados a serem análisados.
--   Como havia feito o Fork do diretório da DIO e resolvi fazer meu próprio CSV, upei meu arquivo aqui no Git com nome de "previsao_estoque.csv".
+-   Como havia feito o Fork do diretório da DIO e resolvi fazer meu próprio CSV, upei meu arquivo aqui no Git com nome de "previsao_estoque_small.csv".
 -   Upei meu dataset no SageMaker Canvas.
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-   No SageMaker Canvas, importei meu dataset, fiz com apenas 25 itens.
+-   Configurei coluna alvo para "Preço de Venda" e o modelo para "Estoque".
+-   Feito as configurações iniciei o treinamento do modelo.
 
 ### 3. Analisar
 
