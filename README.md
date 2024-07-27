@@ -37,8 +37,7 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
+
 
 
 ### 5. Conclusões
