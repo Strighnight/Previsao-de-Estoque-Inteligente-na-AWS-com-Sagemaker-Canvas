@@ -25,7 +25,8 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 -   No SageMaker Canvas, importei meu dataset, fiz com apenas 25 itens.
 -   Configurei coluna alvo para "Preço de Venda" e o modelo para "Estoque".
--   Feito as configurações iniciei o treinamento do modelo.
+-   Usei as sugestões propostas pelo proprio SageMaker Canvas pra ajustar meus dados.
+-   Feito as configurações iniciei o treinamento do modelo, como meu modelo foi apenas pra fins didáticos, utilizei o "Quick Build".
 
 ### 3. Analisar
 
