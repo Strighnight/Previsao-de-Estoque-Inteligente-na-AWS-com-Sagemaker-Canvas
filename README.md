@@ -30,16 +30,12 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+-   Após o treinamento, examine as métricas de performance do modelo, observando os seguintes resultados Avg. wQL - 1.000, MAPE - 1.000, WAPE - 1.000, RMSE - 12.337, MASE - 0.008, tendo isso em vista, resume -se que o modelo poderia ser mais eficiente, uma vez que quanto mais perto de 0 essas métricas, mais precisas seriam.
+-   Foi analisado também como as promoções impactaram no estoque.
+
 
 ### 4. Prever
 
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
