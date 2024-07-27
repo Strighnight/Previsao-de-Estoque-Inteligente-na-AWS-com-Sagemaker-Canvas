@@ -17,7 +17,7 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 ### 1. Selecionar Dataset
 
--   Utilizando a versão mais recente do Chat GPT(GPT-4o), solicitei que fosse feito um DataSet em CSV com os dados a serem análisados.
+-   Utilizando a versão mais recente do Chat GPT(GPT-4o), solicitei que fosse feito um DataSet em CSV com os dados a serem analisados.
 -   Como havia feito o Fork do diretório da DIO e resolvi fazer meu próprio CSV, upei meu arquivo aqui no Git com nome de "previsao_estoque_small.csv".
 -   Upei meu dataset no SageMaker Canvas.
 
@@ -31,7 +31,7 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo, observando os seguintes resultados Avg. wQL - 1.000, MAPE - 1.000, WAPE - 1.000, RMSE - 12.337, MASE - 0.008, tendo isso em vista, resume -se que o modelo poderia ser mais eficiente, uma vez que quanto mais perto de 0 essas métricas, mais precisas seriam.
+-   Após o treinamento, examine as métricas de performance do modelo, observando os seguintes resultados Avg. wQL - 1.000, MAPE - 1.000, WAPE - 1.000, RMSE - 12.337, MASE - 0.008, tendo isso em vista, conclui-se que o modelo poderia ser mais eficiente, uma vez que quanto mais perto de 0 essas métricas, mais precisas seriam.
 -   Foi analisado também como as promoções impactaram no estoque.
 
 
@@ -39,7 +39,8 @@ Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canva
 
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
 
 ### 5. Conclusões
+
+O projeto proporcionou uma boa base para a construção de um modelo de previsão de estoque usando o AWS SageMaker Canvas. Embora as métricas de desempenho indiquem que há espaço para melhorias, o processo forneceu uma visão valiosa sobre a configuração e uso de modelos de machine learning para otimização de inventário.
