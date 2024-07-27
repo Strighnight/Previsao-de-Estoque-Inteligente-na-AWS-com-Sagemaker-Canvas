@@ -3,7 +3,7 @@
 Bem-vindo ao projeto para prever a demanda de estoque usando AWS SageMaker Canvas. Inclui coleta e pré-processamento de dados, treinamento e validação de modelos de machine learning, previsões em tempo real e dashboards para visualização dos resultados. Otimize seu inventário e reduza custos de excesso ou falta de produtos.
 
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+## 🎯 Objetivos Deste Projeto
 
 ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
 
